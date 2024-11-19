@@ -1,23 +1,30 @@
 {
-  "name": "dysfunctional",
-  "type": "module",
-  "version": "0.0.1",
-  "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro check && astro build",
-    "preview": "astro preview",
-    "astro": "astro"
-  },
-  "dependencies": {
-    "@astrojs/check": "^0.9.4",
-    "@astrojs/tailwind": "^5.1.2",
-    "@fontsource/anton": "^5.1.0",
-    "@fontsource/archivo": "^5.1.0",
-    "@fontsource/jetbrains-mono": "^5.1.1",
-    "@fontsource/monaspace-neon": "^5.1.0",
-    "astro": "^4.16.13",
-    "tailwindcss": "^3.4.15",
-    "typescript": "^5.6.3"
-  }
+	"name": "dysfunctional",
+	"type": "module",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "astro dev",
+		"start": "astro dev",
+		"build": "astro check && astro build",
+		"preview": "astro preview",
+		"astro": "astro",
+		"format": "prettier --check --write src/**/*"
+	},
+	"dependencies": {
+		"@astrojs/check": "^0.9.4",
+		"@astrojs/tailwind": "^5.1.2",
+		"@fontsource/anton": "^5.1.0",
+		"@fontsource/archivo": "^5.1.0",
+		"@fontsource/jetbrains-mono": "^5.1.1",
+		"@fontsource/monaspace-neon": "^5.1.0",
+		"astro": "^4.16.13",
+		"tailwindcss": "^3.4.15",
+		"typescript": "^5.6.3"
+	},
+	"devDependencies": {
+		"@nicknisi/standard": "^0.1.0",
+		"prettier": "^3.3.3",
+		"prettier-plugin-astro": "^0.14.1",
+		"prettier-plugin-tailwindcss": "^0.6.8"
+	}
 }
