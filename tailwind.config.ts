@@ -10,6 +10,7 @@ const config: Config = {
       },
       fontFamily: {
         sans: ["Archivo", ...defaultTheme.fontFamily.sans],
+        mono: ["Monaspace Neon", ...defaultTheme.fontFamily.mono],
       },
     },
   },

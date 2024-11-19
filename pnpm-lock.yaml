@@ -20,6 +20,12 @@ importers:
       '@fontsource/archivo':
         specifier: ^5.1.0
         version: 5.1.0
+      '@fontsource/jetbrains-mono':
+        specifier: ^5.1.1
+        version: 5.1.1
+      '@fontsource/monaspace-neon':
+        specifier: ^5.1.0
+        version: 5.1.0
       astro:
         specifier: ^4.16.13
         version: 4.16.13(rollup@4.27.3)(typescript@5.6.3)
@@ -334,6 +340,12 @@ packages:
 
   '@fontsource/archivo@5.1.0':
     resolution: {integrity: sha512-zusUDuLRWmNYi5DhaXado+uj9ip8IarqgUdUlXQOrEVVQbN1gpueWy0Qbxnn6DSfEXo2cNneMPlv7MtG+XU8Zg==}
+
+  '@fontsource/jetbrains-mono@5.1.1':
+    resolution: {integrity: sha512-5rwvmdQQpXev4LlBX1P+7h2dguu6iwW/9Npjde4+DEq+HgpVJI/7QY8DI1NVVFdvLtXZNP+vO2L/5BQED6FUhA==}
+
+  '@fontsource/monaspace-neon@5.1.0':
+    resolution: {integrity: sha512-nW56kEvbPwNHHYfouTEI6KR2BAcXhqjGc/KkQdDvC+bcpRFc9olZTBd+Jw+l8MhcbnFwX+GWE5VP8EUrAcshew==}
 
   '@img/sharp-darwin-arm64@0.33.5':
     resolution: {integrity: sha512-UT4p+iz/2H4twwAoLCqfA9UH5pI6DggwKEGuaPy7nCVQ8ZsiY5PIcrRvD1DzuY3qYL07NtIQcWnBSY/heikIFQ==}
@@ -2427,6 +2439,10 @@ snapshots:
   '@fontsource/anton@5.1.0': {}
 
   '@fontsource/archivo@5.1.0': {}
+
+  '@fontsource/jetbrains-mono@5.1.1': {}
+
+  '@fontsource/monaspace-neon@5.1.0': {}
 
   '@img/sharp-darwin-arm64@0.33.5':
     optionalDependencies:
